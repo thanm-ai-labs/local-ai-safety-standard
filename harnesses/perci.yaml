@@ -1,0 +1,14 @@
+name: "Perci"
+repo_url: "https://github.com/jacksonjp0311-gif/Perci"
+owner: "jacksonjp0311-gif"
+license: "MIT"
+language: "Rust"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - destructive
+  - exfil
+  - other
+local_first: true
+risk_note: "Deterministic verifier/gate for agents (math, claim/citation checks, shell/write policy, hash-chained ledger); preview — verify before relying on it."
+status: "verified"

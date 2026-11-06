@@ -1,0 +1,14 @@
+name: "pipelock"
+repo_url: "https://github.com/pipelab-org/pipelock"
+owner: "pipelab-org"
+license: "MIT"
+language: "Go"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - exfil
+  - mcp
+  - supply-chain
+local_first: true
+risk_note: "Agent firewall for MCP/HTTP egress; scans mediated traffic for exfiltration and SSRF — point it at your real egress path."
+status: "verified"

@@ -1,0 +1,13 @@
+name: "toolgate"
+repo_url: "https://github.com/RiskAverseTech/toolgate"
+owner: "RiskAverseTech"
+license: "MIT"
+language: "TypeScript"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - destructive
+  - exfil
+local_first: true
+risk_note: "Measured tool-call firewall (allow/ask/deny before the agent acts); tune the allow/ask/deny thresholds to your risk tolerance."
+status: "verified"

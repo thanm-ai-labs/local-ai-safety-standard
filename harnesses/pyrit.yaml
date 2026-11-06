@@ -1,0 +1,13 @@
+name: "PyRIT"
+repo_url: "https://github.com/microsoft/PyRIT"
+owner: "microsoft"
+license: "MIT"
+language: "Python"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - injection
+  - other
+local_first: true
+risk_note: "Red-teaming toolkit (automated scans, multi-turn attacks); run it against your own models in an isolated environment."
+status: "verified"

@@ -1,0 +1,13 @@
+name: "The Agent Sandbox Taxonomy"
+repo_url: "https://github.com/kajogo777/the-agent-sandbox-taxonomy"
+owner: "kajogo777"
+license: "MIT"
+language: "Go"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - destructive
+  - other
+local_first: true
+risk_note: "Open taxonomy + scoring framework for evaluating agent sandboxes (defense layers, threat categories); a reference, not a runtime."
+status: "verified"

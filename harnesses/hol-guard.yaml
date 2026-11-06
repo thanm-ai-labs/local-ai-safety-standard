@@ -1,0 +1,14 @@
+name: "hol-guard"
+repo_url: "https://github.com/hashgraph-online/hol-guard"
+owner: "hashgraph-online"
+license: "MIT"
+language: "Rust"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - injection
+  - exfil
+  - supply-chain
+local_first: true
+risk_note: "Runtime antivirus/firewall for agents (blocks risky tools, secret access, malicious packages); keep its rules current."
+status: "verified"

@@ -1,0 +1,14 @@
+name: "agent-control-standard"
+repo_url: "https://github.com/GenAI-Security-Project/agent-control-standard"
+owner: "GenAI-Security-Project"
+license: "Apache-2.0"
+language: "TypeScript"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - injection
+  - destructive
+  - other
+local_first: true
+risk_note: "Open standard for runtime agent control (declarative hooks, policy enforcement, observability); adopt the hooks, review the policy."
+status: "verified"

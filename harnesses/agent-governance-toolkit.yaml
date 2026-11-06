@@ -1,0 +1,15 @@
+name: "agent-governance-toolkit"
+repo_url: "https://github.com/microsoft/agent-governance-toolkit"
+owner: "microsoft"
+license: "MIT"
+language: "Python"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - injection
+  - exfil
+  - destructive
+  - other
+local_first: true
+risk_note: "Policy enforcement, zero-trust identity, and sandboxing for agents (OWASP Agentic Top 10); configure policy to your boundary."
+status: "verified"

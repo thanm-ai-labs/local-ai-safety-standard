@@ -1,0 +1,12 @@
+name: "awesome-ai-governance"
+repo_url: "https://github.com/agentrust-io/awesome-ai-governance"
+owner: "agentrust-io"
+license: "MIT"
+language: "Shell"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - other
+local_first: true
+risk_note: "Curated list of AI agent governance, safety, and compliance tools/standards; a starting index, verify each linked project yourself."
+status: "verified"

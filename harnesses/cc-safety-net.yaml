@@ -1,0 +1,13 @@
+name: "cc-safety-net"
+repo_url: "https://github.com/kenryu42/cc-safety-net"
+owner: "kenryu42"
+license: "MIT"
+language: "TypeScript"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - destructive
+  - exfil
+local_first: true
+risk_note: "Pre-execution guard for coding agents; blocks destructive git/fs commands and sensitive-file access before a tool call runs."
+status: "verified"

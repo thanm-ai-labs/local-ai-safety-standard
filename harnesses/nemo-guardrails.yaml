@@ -1,0 +1,13 @@
+name: "NeMo Guardrails"
+repo_url: "https://github.com/NVIDIA-NeMo/Guardrails"
+owner: "NVIDIA-NeMo"
+license: "Apache-2.0"
+language: "Python"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - injection
+  - other
+local_first: true
+risk_note: "Programmable guardrails for LLM conversational systems; add your own rails and test them before trusting them."
+status: "verified"

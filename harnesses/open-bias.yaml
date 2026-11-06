@@ -1,0 +1,14 @@
+name: "open-bias"
+repo_url: "https://github.com/open-bias/open-bias"
+owner: "open-bias"
+license: "MIT"
+language: "Python"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - injection
+  - exfil
+  - other
+local_first: true
+risk_note: "Open-source policy-enforcement proxy (rule engine) that makes agents follow rules; write the rules to match your boundary."
+status: "verified"

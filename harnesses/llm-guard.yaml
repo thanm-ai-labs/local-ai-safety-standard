@@ -1,0 +1,14 @@
+name: "llm-guard"
+repo_url: "https://github.com/protectai/llm-guard"
+owner: "protectai"
+license: "Apache-2.0"
+language: "Python"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - injection
+  - exfil
+  - other
+local_first: true
+risk_note: "Security toolkit for LLM interactions (injection, PII, toxicity scanners); scanners are heuristics, not guarantees."
+status: "verified"

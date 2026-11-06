@@ -1,0 +1,13 @@
+name: "SkillSpector"
+repo_url: "https://github.com/NVIDIA/SkillSpector"
+owner: "NVIDIA"
+license: "Apache-2.0"
+language: "Python"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - supply-chain
+  - injection
+local_first: true
+risk_note: "Security scanner for AI agent skills (Claude Code, Codex, MCP); scan a skill before you install it."
+status: "verified"

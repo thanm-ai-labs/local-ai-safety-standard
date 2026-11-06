@@ -1,0 +1,14 @@
+name: "AI-Infra-Guard"
+repo_url: "https://github.com/Tencent/AI-Infra-Guard"
+owner: "Tencent"
+license: "Apache-2.0"
+language: "Python"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - injection
+  - supply-chain
+  - other
+local_first: true
+risk_note: "Full-stack red-teaming platform (agent, skills, MCP, infra scans, jailbreak eval); run scans against isolated targets."
+status: "verified"

@@ -1,0 +1,20 @@
+# Template for a harness directory entry.
+# Copy to <slug>.yaml, fill every field, read license + last commit from the
+# LIVE repo, then run:  python tools/validate_harnesses.py
+#
+# No free-text fields beyond risk_note. status stays "unverified" until the
+# validator passes AND a maintainer has reviewed the PR.
+
+name: "Example Harness"
+repo_url: "https://github.com/example/example-harness"
+owner: "example"
+license: "MIT"
+language: "Python"
+last_verified: "2026-11-05"
+verified_by: "maintainer"
+threat_coverage:
+  - injection
+  - exfil
+local_first: true
+risk_note: "What it does + the caution a reader should take. One line, plain language."
+status: "unverified"
